@@ -26,6 +26,29 @@ public class Main {
 		delfino.verso();
 		delfino.mangia();
 		
+		Aquila a = new Aquila();
+		System.out.println("Aquila");
+		faiVolare (a);
+		
+		Passerotto p = new Passerotto();
+		System.out.println("Passerotto");
+		faiVolare (p);
+		
+		Cane c = new Cane ();
+		System.out.println("Cane");
+		faiNuotare (c);
+		
+		Delfino d = new Delfino ();
+		System.out.println("Delfino");
+		faiNuotare (d);
 	}
 
+	static void faiVolare (IVolante animale) {
+		animale.vola();
+	}
+	static void faiNuotare (INuotante animale) {
+		animale.nuota();
+	}
+	
+	
 }

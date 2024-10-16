@@ -1,6 +1,6 @@
 package org.lessons.java.animali.astratti;
 
-public class Passerotto extends Animali {
+public class Passerotto extends Animali implements IVolante {
 
 	@Override
 	public void verso() {
@@ -11,6 +11,11 @@ public class Passerotto extends Animali {
 	@Override
 	public void mangia() {
 		System.out.println ("Mangia: Fiocchi d'avena, Noci e Nocciole, Uvette e Frutta");
+		
+	}
+	@Override
+	public void vola () {
+		System.out.println ("Sto volando!");
 		
 	}
 

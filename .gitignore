@@ -7,3 +7,5 @@ bin/org/lessons/java/animali/astratti/Cane.class
 bin/org/lessons/java/animali/astratti/Animali.class
 .project
 .classpath
+bin/org/lessons/java/animali/astratti/IVolante.class
+bin/org/lessons/java/animali/astratti/INuotante.class
